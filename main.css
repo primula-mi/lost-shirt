@@ -185,7 +185,7 @@ body {
 .fade-slider__item--style-tshirts .fade-slider__text {
   left: 50%;
   top: 50%;
-  transform: translateX(-164%) translateY(-52%);
+  transform: translateX(-130%) translateY(-52%);
 }
 
 .fade-slider__item--style-games {
@@ -209,7 +209,7 @@ body {
 .fade-slider__item--style-present .fade-slider__text {
   left: 0;
   bottom: 0;
-  transform: translateY(-120%);
+  transform: translateY(-20%) translateX(20%);
 }
 
 .fade-slider__item--style-present .lined-text {
