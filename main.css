@@ -33,7 +33,9 @@ body {
   margin: 0 auto;
   padding-top: 27px;
 }
-
+.logo__pic--margin {
+    margin-left: 100px;
+}
 .mail {
   text-decoration: none;
   text-align: center;
