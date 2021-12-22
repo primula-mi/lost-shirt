@@ -13,7 +13,7 @@ body {
 
 .wrapper {
   overflow: hidden;
-  min-width: 1310px;
+  /* min-width: 1440px; */
 }
 
 
@@ -25,6 +25,8 @@ body {
   margin-bottom: 130px;
 }
 
+.content {}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,9 +35,12 @@ body {
   margin: 0 auto;
   padding-top: 27px;
 }
-.logo__pic--margin {
-    margin-left: 100px;
+
+.header--product {
+  margin: 0 auto 50px;
+  padding-bottom: 20px;
 }
+
 .mail {
   text-decoration: none;
   text-align: center;
@@ -187,7 +192,7 @@ body {
 .fade-slider__item--style-tshirts .fade-slider__text {
   left: 50%;
   top: 50%;
-  transform: translateX(-130%) translateY(-52%);
+  transform: translateX(-164%) translateY(-52%);
 }
 
 .fade-slider__item--style-games {
@@ -211,7 +216,7 @@ body {
 .fade-slider__item--style-present .fade-slider__text {
   left: 0;
   bottom: 0;
-  transform: translateY(-20%) translateX(20%);
+  transform: translateY(-120%);
 }
 
 .fade-slider__item--style-present .lined-text {
@@ -252,7 +257,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1300px;
+  /* width: 1300px; */
+  width: 1105px;
 }
 
 ul {
@@ -288,6 +294,7 @@ ul>li {
   font-weight: bold;
   text-decoration: none;
   font-family: 'Yanone Kaffeesatz', Arial sans-serif;
+  cursor: pointer;
 }
 
 .filter__link:hover {
@@ -562,6 +569,7 @@ ul>li {
 .extras__col {
   margin-right: 20px;
   flex: 1;
+  margin-bottom: 55px;
 }
 
 .extras__col:last-child {
@@ -617,4 +625,336 @@ ul>li {
 .socials__icon {
   width: 100%;
   height: 100%;
+}
+
+.product__content {
+  display: flex;
+  margin-bottom: 103px;
+  background: #ffc92f;
+}
+
+.product__tshirt {
+  padding-left: 30px;
+  /* background: url(./img/tshirts/tshirt_07.png) no-repeat; */
+}
+
+.tshirt-color {
+  display: none;
+}
+
+.tshirt-color.active {
+  display: block;
+}
+
+.product__parametrs {
+  background: #fff;
+  width: 100%;
+  margin: 10px 10px 10px 0;
+  padding: 30px;
+}
+
+.product__header {
+  font-weight: bold;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 30px;
+}
+
+.product__type {
+  color: #ffc92f;
+  font-size: 17px;
+
+}
+
+.product__name {
+  text-transform: uppercase;
+  font-size: 47px;
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz',
+    Arial sans-serif;
+}
+
+.product__price {
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: "Yanone Kaffeesatz",
+    Arial,
+    sans-serif;
+  font-size: 38px;
+  background: #ffc92f;
+  line-height: .7;
+}
+
+.product__info {
+  padding-top: 30px;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 37px;
+}
+
+.product__info p {
+  margin: 0;
+  font-size: 13px;
+  font-family: "Roboto",
+    Arial,
+    sans-serif;
+  margin-bottom: 20px;
+}
+
+.product__info p:last-child {
+  margin-bottom: 0;
+}
+
+.info {
+  display: none;
+  border: 10px solid #ffbc2f;
+  margin-bottom: 80px;
+}
+
+.info.active {
+  display: flex;
+}
+
+.info__washing {
+  border-right: 1px solid #d3d3d3;
+}
+
+.info__list {
+  padding: 58px 45px 63px 44px;
+}
+
+.size-info__list {
+  padding-top: 50px;
+}
+
+.info__item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.info__item:last-child {
+  padding-bottom: 0;
+}
+
+.info__icon {
+  width: 25px;
+  height: 25px;
+  padding-right: 25px;
+}
+
+
+.info__item-text {
+  font-size: 13px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.decription {
+  padding: 58px 45px 63px 55px;
+  width: 70%;
+}
+
+.decription p {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Roboto",
+    Arial,
+    sans-serif;
+  margin-bottom: 14px;
+}
+
+.info__size {
+  border-right: 1px solid #d3d3d3;
+  width: 360px;
+  padding: 45px 55px 0 50px;
+}
+
+.info__measurement {
+  width: 100%;
+}
+
+.logo-express {
+  padding: 55px 75px 50px 85px;
+}
+
+.logo-harly {
+  width: 60%;
+  padding: 55px 75px 50px 85px;
+}
+
+.decription-size__table {
+  width: 70%;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Roboto",
+    Arial,
+    sans-serif;
+}
+
+.decription-size__list {
+  display: flex;
+}
+
+.decription-size__list--bold {
+  font-weight: bold;
+  background: #f6efe0;
+}
+
+.decr-size__item {
+  padding: 17px 0 17px 0px;
+  border-top: 1px solid #e5dece;
+  border-left: 1px solid #e5dece;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+}
+
+.decription-size__list .decr-size__item:last-child {
+  border-right: 1px solid #e5dece;
+}
+
+.decr-size__item--main {
+  padding-left: 20px;
+  width: 158px;
+  justify-content: flex-start;
+}
+
+
+
+.product__options {
+  margin-top: 27px;
+}
+
+.size__list {
+  display: flex;
+}
+
+.size__item {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #dfd9c7;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.size__item:last-child {
+  margin-right: 0;
+}
+
+.size__item.active-size {
+  background: #ffc92f;
+}
+
+.size__item.none-active-size {
+  color: #dfd9c7;
+}
+
+.palette__list {
+  display: flex;
+  align-items: center;
+}
+
+.palette__item {
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.palette__item.active-color {
+  border: 3px solid #ffc92f;
+}
+
+
+.color__item--black {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #dfd9c7;
+  border-radius: 15px;
+  background: #000;
+}
+
+.color__item--white {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #dfd9c7;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.color__item--green {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #dfd9c7;
+  border-radius: 15px;
+  background: #529029;
+}
+
+.color__item--blue {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #dfd9c7;
+  border-radius: 15px;
+  background: #39498d;
+}
+
+.color__item--red {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #dfd9c7;
+  border-radius: 15px;
+  background: #d82727;
+}
+
+.buy-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 70px;
+  background: #232323;
+  color: #ffbc2f;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: .7;
+  font-family: 'Yanone Kaffeesatz',
+    Arial sans-serif;
+}
+
+.buy-btn:hover {
+  background: #d82727;
+  color: #fff;
+}
+
+.header__content {
+  position: absolute;
+  top: -26px;
+  left: 400px;
+  width: 50%;
+  height: 202px;
+  background: url(./img/decor/header-guys.png) no-repeat top;
+}
+
+.head {
+  background: url(./img/bg/hero.jpg) center center;
+}
+
+.header__text .lined-text {
+  position: absolute;
+  top: 40px;
+  left: 15%;
+  font-size: 30px;
+}
+
+.header__text .lined-text .lined-text__word {
+  padding: 2px 10px 5px;
 }
