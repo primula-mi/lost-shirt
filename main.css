@@ -844,11 +844,11 @@ ul>li {
   margin-right: 0;
 }
 
-.size__item.active-size {
+.size__item.active {
   background: #ffc92f;
 }
 
-.size__item.none-active-size {
+.size__item.none-active {
   color: #dfd9c7;
 }
 
@@ -870,7 +870,7 @@ ul>li {
   cursor: pointer;
 }
 
-.palette__item.active-color {
+.palette__item.active {
   border: 3px solid #ffc92f;
 }
 
