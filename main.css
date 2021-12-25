@@ -18,14 +18,13 @@ body {
 
 
 .hero {
+  position: relative;
   height: 100vh;
   min-height: 650px;
-  background: url(./img/bg/hero.jpg) center center / cover no-repeat;
-  position: relative;
   margin-bottom: 130px;
+  background: url(./img/bg/hero.jpg) center center / cover no-repeat;
 }
 
-.content {}
 
 .header {
   display: flex;
@@ -52,19 +51,19 @@ body {
 }
 
 .mail__content {
+  padding: 5px 10px;
   background: #212121;
   color: #ffbc2f;
   font-size: 16px;
-  padding: 5px 10px;
 }
 
 .hero__content {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 1140px;
   height: 72%;
+  transform: translate(-50%, -50%);
 }
 
 .sidebar__hamburger {
@@ -87,16 +86,16 @@ body {
 
 .sidebar {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   left: 0;
   top: 0;
   bottom: 0;
   width: 75px;
   background: #1b1b1b;
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   transition: width .3s;
 }
 
@@ -113,18 +112,17 @@ body {
 
 .sidebar__header {
   position: absolute;
+  display: none;
+  justify-content: center;
   left: 0;
   top: 29px;
   right: 0;
-  display: none;
-  justify-content: center;
 }
 
 .sidebar__close {
   position: absolute;
   top: -4px;
   right: 23px;
-
 }
 
 .sidebar__close-icon {
@@ -167,7 +165,6 @@ body {
 .fade-slider {
   width: 100%px;
   height: 100%;
-
 }
 
 .fade-slider__item {
@@ -228,22 +225,22 @@ body {
 }
 
 .lined-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font-family: "alegreya";
   color: #fff;
   font-size: 63px;
   text-transform: uppercase;
   line-height: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   word-wrap: normal;
 }
 
 .lined-text__word {
-  background: #000;
   padding: 0 17px 8px;
   margin-top: -7px;
   white-space: nowrap;
+  background: #000;
 }
 
 .lined-text__word:nth-child(2n) {
@@ -287,9 +284,9 @@ ul>li {
 
 .filter__link {
   display: inline-block;
-  text-transform: uppercase;
   padding: 3px 21px;
   color: #1b1b1b;
+  text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -358,23 +355,23 @@ ul>li {
 }
 
 .products__price-amount {
+  position: absolute;
+  right: 28px;
+  top: 2px;
   font-size: 30px;
   font-weight: bold;
   font-family: 'Yanone Kaffeesatz',
     Arial sans-serif;
   color: #fff;
   transform: rotate(181deg);
-  position: absolute;
-  right: 28px;
-  top: 2px;
 }
 
 .products__content {
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -385,7 +382,6 @@ ul>li {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   bottom: 0;
   left: 0;
   right: 0;
@@ -486,14 +482,14 @@ ul>li {
 
 
 .collections__title {
+  margin-top: 0;
+  margin-bottom: 11px;
   font-family: 'Yanone Kaffeesatz',
     Arial sans-serif;
   font-size: 70px;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 11px;
 }
 
 .collection__desc {
@@ -526,13 +522,13 @@ ul>li {
 }
 
 .site-menu__title {
+  margin-bottom: 24px;
   font-family: 'Yanone Kaffeesatz',
     Arial sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #232323;
   text-transform: uppercase;
-  margin-bottom: 24px;
 }
 
 .site-menu__item {
@@ -550,15 +546,15 @@ ul>li {
 }
 
 .site-menu__text {
+  margin-bottom: 30px;
   font-size: 15px;
   color: #232323;
-  margin-bottom: 30px;
 }
 
 .site-menu__title-row {
+  display: block;
   color: inherit;
   text-decoration: none;
-  display: block;
 }
 
 .extras {
@@ -567,9 +563,9 @@ ul>li {
 }
 
 .extras__col {
-  margin-right: 20px;
   flex: 1;
   margin-bottom: 55px;
+  margin-right: 20px;
 }
 
 .extras__col:last-child {
@@ -578,6 +574,7 @@ ul>li {
 
 .extras__best {
   display: block;
+  padding: 39px 10%;
   text-align: center;
   background: #232323;
   color: #fff;
@@ -586,18 +583,16 @@ ul>li {
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz',
     Arial sans-serif;
-  padding: 39px 10%;
   text-decoration: none;
   line-height: 1;
 }
 
 .extras__col-sotials {
-  height: 100%;
-  background: url('./img/bg/pattern.png') center center / 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  height: 100%;
+  background: url('./img/bg/pattern.png') center center / 500px;
 }
 
 .socials {
@@ -635,7 +630,6 @@ ul>li {
 
 .product__tshirt {
   padding-left: 30px;
-  /* background: url(./img/tshirts/tshirt_07.png) no-repeat; */
 }
 
 .tshirt-color {
@@ -692,11 +686,11 @@ ul>li {
 
 .product__info p {
   margin: 0;
+  margin-bottom: 20px;
   font-size: 13px;
   font-family: "Roboto",
     Arial,
     sans-serif;
-  margin-bottom: 20px;
 }
 
 .product__info p:last-child {
@@ -705,8 +699,8 @@ ul>li {
 
 .info {
   display: none;
-  border: 10px solid #ffbc2f;
   margin-bottom: 80px;
+  border: 10px solid #ffbc2f;
 }
 
 .info.active {
@@ -813,12 +807,10 @@ ul>li {
 }
 
 .decr-size__item--main {
+  justify-content: flex-start;
   padding-left: 20px;
   width: 158px;
-  justify-content: flex-start;
 }
-
-
 
 .product__options {
   margin-top: 27px;
@@ -829,14 +821,14 @@ ul>li {
 }
 
 .size__item {
-  height: 40px;
-  width: 40px;
-  border: 2px solid #dfd9c7;
   display: flex;
   align-content: center;
   justify-content: center;
   align-items: center;
+  height: 40px;
+  width: 40px;
   margin-right: 7px;
+  border: 2px solid #dfd9c7;
   cursor: pointer;
 }
 
@@ -858,15 +850,15 @@ ul>li {
 }
 
 .palette__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
   height: 30px;
   width: 30px;
   margin-top: 20px;
   margin-right: 20px;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
   cursor: pointer;
 }
 
@@ -938,7 +930,7 @@ ul>li {
 .header__content {
   position: absolute;
   top: -26px;
-  left: 400px;
+  left: 27%;
   width: 50%;
   height: 202px;
   background: url(./img/decor/header-guys.png) no-repeat top;
@@ -951,7 +943,7 @@ ul>li {
 .header__text .lined-text {
   position: absolute;
   top: 40px;
-  left: 15%;
+  left: 6%;
   font-size: 30px;
 }
 
